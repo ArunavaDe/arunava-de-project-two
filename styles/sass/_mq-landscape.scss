@@ -1,7 +1,7 @@
 @media all and (min-width:300px) and (max-width: 900px) and (orientation: landscape) {
         .home {
             background: url("../assets/home-header.jpg");
-            // height: 100vh;
+            height: 100vh;
             background-size: cover;
             
             nav, 
@@ -19,7 +19,7 @@
 
         .blog {
             background: url("../assets/blog-header.jpg");
-            // height: 100vh;
+            height: 100vh;
             background-size: cover;
         
             nav,
@@ -35,7 +35,7 @@
 
         .contact {
             background: url("../assets/contact-header.jpg");
-            // height: 100vh;
+            height: 100vh;
             background-size: cover;
         
             nav,

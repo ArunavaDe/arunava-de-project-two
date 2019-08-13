@@ -336,6 +336,10 @@ a.readMore:focus {
   padding-bottom: 6rem;
 }
 
+.blogPost h2 {
+  color: #0d457f;
+}
+
 .wrapperInside {
   width: 700px;
   margin: 0 auto;
@@ -355,6 +359,10 @@ a.readMore:focus {
 .byLine {
   text-transform: capitalize;
   margin-top: 0;
+}
+
+.comments h3 {
+  color: #0d457f;
 }
 
 .commentSection {
@@ -2996,6 +3004,7 @@ img {
 @media all and (min-width: 300px) and (max-width: 900px) and (orientation: landscape) {
   .home {
     background: url("../assets/home-header.jpg");
+    height: 100vh;
     background-size: cover;
   }
   .home nav,
@@ -3012,6 +3021,7 @@ img {
   }
   .blog {
     background: url("../assets/blog-header.jpg");
+    height: 100vh;
     background-size: cover;
   }
   .blog nav,
@@ -3024,6 +3034,7 @@ img {
   }
   .contact {
     background: url("../assets/contact-header.jpg");
+    height: 100vh;
     background-size: cover;
   }
   .contact nav,

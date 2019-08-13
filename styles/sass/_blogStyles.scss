@@ -46,6 +46,10 @@
 
 }
 
+.blogPost h2 {
+    color: $twilightBlue;
+}
+
 .wrapperInside {
     width: 700px;
     margin: 0 auto;
@@ -63,6 +67,10 @@
 .byLine {
     text-transform: capitalize;
     margin-top: 0;
+}
+
+.comments h3 {
+    color: $twilightBlue;
 }
 
 .commentSection {
