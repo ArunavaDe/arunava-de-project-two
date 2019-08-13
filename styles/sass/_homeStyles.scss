@@ -147,6 +147,10 @@ img {
     margin-top: 6rem;
 }
 
+.extraDaysContent h3 {
+    color: $twilightBlue;
+}
+
 .ourPrograms p,
 .newLocations p,
 .extraDaysContent p,
@@ -170,6 +174,10 @@ img {
 .winTripContent {
     width: 60%;
     margin-top: 5rem;
+}
+
+.winTripContent h3 {
+    color: $twilightBlue;
 }
 
 .gallery {
