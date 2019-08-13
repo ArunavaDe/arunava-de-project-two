@@ -1150,6 +1150,7 @@ img {
     padding-top: 10rem;
     color: #fdd908;
     font-size: 3.5rem;
+    text-align: center;
   }
   .blog {
     background: url("../assets/blog-header.jpg");
@@ -2996,6 +2997,7 @@ img {
     width: 100%;
   }
   .home h1 {
+    padding-top: 3rem;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
