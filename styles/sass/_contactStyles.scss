@@ -1,0 +1,104 @@
+.contact {
+    background: url("../assets/contact-header.jpg");
+    height: 70vh;
+    background-size: cover;
+
+    nav,
+    h1 {
+        width: 50%;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        color: $white;
+    }
+}
+
+
+.contactFS {
+    background: $twilightBlue;
+    padding: 3rem;
+    box-shadow: 1rem 1rem $dandelion;
+    top: -6rem;
+}
+
+.contactFS input[type=text],
+.contactFS input[type=email],
+.contactFS input[type=textarea] {
+    background: $twilightBlue;
+}
+
+.contactFS input[type=text]::placeholder,
+.contactFS input[type=email]::placeholder,
+.contactFS input[type=textarea]::placeholder {
+    color: $white;
+}
+
+
+
+.contactFS input[type=text]:focus,
+.contactFS input[type=email]:focus,
+.contactFS input[type=textarea]:focus {
+    background: $dandelion;
+}
+
+
+.contactFS button {
+    background: $dandelion;
+    color: $twilightBlue;
+}
+
+.contactFS button:focus,
+.contactFS button:hover {
+    border: 1px solid $dandelion;
+    color: $dandelion;
+    background: $twilightBlue;
+}
+
+.contactAreaFull{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+.socialNav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.socialNav li {
+    margin: 1rem 0.5rem;
+}
+.socialNav li:first-child {
+    margin-left: 0;
+}
+
+.socialNav li a {
+    text-decoration: none;
+    color: $twilightBlue;
+}
+
+.socialNav li a:hover {
+    color: $dandelion;
+}
+
+.socialNav li a:focus {
+    color: $dandelion;
+}
+
+.contactInfo p {
+    margin: 0;
+}
+
+.contactInfo .emailInfo{
+    margin-bottom: 2rem;
+}
+
+.contactInfo {
+    text-transform: capitalize;
+}

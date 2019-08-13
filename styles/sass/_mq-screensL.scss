@@ -1,0 +1,119 @@
+@media all and (max-width:1024px) {
+
+html {
+    background: $iceBlue;
+    font-size: 90%;
+}
+
+.wrapper,
+.responsiveWrapper {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.wrapperInside {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+
+
+.home {
+    background: url("../assets/home-header.jpg");
+    height: 40vh;
+    background-size: cover;
+
+    nav, h1 {
+        width: 100%;
+    }
+
+    h1 {
+        padding-top: 10rem;
+        color: $dandelion;
+        font-size: 3.5rem;
+    }
+}
+
+.blog {
+    background: url("../assets/blog-header.jpg");
+    height: 40vh;
+    background-size: cover;
+
+    nav, h1 {
+        width: 100%;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        color: $white;
+    }
+}
+
+.contact {
+    background: url("../assets/contact-header.jpg");
+    height: 40vh;
+    background-size: cover;
+
+    nav, h1 {
+        width: 100%;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        color: $white;
+    }
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+.specialImage {
+    display: none;
+}
+
+button {
+    padding: 2rem;
+}
+
+.contactFS {
+    box-shadow: none;
+    position: initial;
+}
+
+.contactAreaFull{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.contactForm {
+    margin: 2rem 0;
+}
+
+
+.socialNav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.contactInfo p {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contactInfo .emailInfo{
+    margin-bottom: 2rem;
+}
+
+.contactInfo {
+    margin-bottom: 2rem;
+}
+
+
+}

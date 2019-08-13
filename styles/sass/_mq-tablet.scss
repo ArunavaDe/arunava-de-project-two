@@ -1,0 +1,291 @@
+@media all and (max-width:768px) {
+    html {
+        font-size: 90%;
+    }
+
+    .wrapper,
+    .responsiveWrapper {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+
+    .home {
+        background: url("../assets/home-header.jpg");
+        height: 50vh;
+        background-size: cover;
+        
+        nav, 
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 5.5rem;
+            text-align: center;
+            font-size: 3rem;
+            color: $dandelion;
+        }
+    }
+
+    .blog {
+        background: url("../assets/blog-header.jpg");
+        height: 50vh;
+        background-size: cover;
+        
+        nav, 
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 5.5rem;
+            text-align: center;
+            font-size: 3rem;
+            color: $white;
+        }
+    }
+
+    .contact {
+        background: url("../assets/contact-header.jpg");
+        height: 50vh;
+        background-size: cover;
+        
+        nav, 
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 5.5rem;
+            text-align: center;
+            font-size: 3rem;
+            color: $white;
+        }
+    }
+
+    
+
+    .home ul.topNav,
+    .blog ul.topNav,
+    .contact ul.topNav {
+        
+        justify-content: space-between;
+        li {
+            padding: 0;
+            margin: 0;
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    
+    }
+
+    
+    .specialImage {
+        display: none;
+    }
+
+    .descriptionArea {
+        padding-top: 2.5rem;
+        flex-flow: column wrap;
+    }
+
+    .descriptionSubHead h2 {
+        margin: 0rem 1rem;
+        line-height: 2rem;
+    }
+
+    .aboutIcon {
+        background: $dandelion;
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        border-radius: 50%;
+    }
+
+    .programLocation {
+        display: flex;
+        flex-flow: column wrap;
+        margin-bottom: 8rem;
+        margin-top: 6rem;
+        padding-bottom: 5rem;
+        justify-content: space-between;
+        background: $twilightBlue;
+    }
+
+    .newLocations {
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+    .newLocations .readMore {
+        margin: 0;
+    }
+
+    .ourPrograms {
+        text-align: left;
+        padding-top: 6rem;
+    }
+
+    .ourPrograms .readMore {
+        margin: 0;
+    }
+
+    .locationImage {
+        order: -1;
+        margin-top: 2rem;
+    }
+
+    .winTrip {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .winTripImage {
+        width: 100%;
+        padding: 1rem 0;
+        margin: 0 auto;
+    }
+    
+    .winTripImage img {
+        box-shadow: none;
+        border: 1rem solid $dandelion;
+        
+    }
+
+    .winTripContent {
+        margin-top: 2rem;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .galleryContent {
+        flex-flow: column nowrap;
+    }
+
+    .galleryContent img {
+        margin: 1rem auto;
+    }
+
+    .blogMain {
+        flex-flow: column nowrap;
+    }
+
+
+    .blogSection {
+        width: 100%;
+        order: -1;
+        padding: 0; 
+    }
+
+    .wrapperInside {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .blogImage {
+        margin: 2rem 0; 
+        align-self: center;
+        box-shadow: none; 
+        position: initial;
+        border: 0.2rem solid $dandelion;
+        width: 100%;
+    }
+
+    .blogPost {
+        border: none;
+        position: initial;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    
+    }
+
+    .blogPost h2, 
+    .byLine {
+        text-align: center;
+    }
+
+    .byLine {
+        font-weight: 700;
+    }
+
+    .comments {
+        position: initial;
+    }
+
+    .formNameEmail {
+        margin-top: 2rem;
+        flex-flow: column nowrap;
+    }
+
+    input[type=email] {
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+
+    .sideBox {
+        width: 100%;
+        flex-flow: column nowrap;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sideBox img {
+        box-shadow: none;
+        align-self: center;
+        border: 1rem solid $dandelion;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sideBoxContent {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+        
+    }
+
+    .contactFS {
+        box-shadow: none;
+        position: initial;
+    }
+
+    .contactAreaFull{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+
+    .contactForm {
+        margin: 2rem 0;
+    }
+
+
+    .socialNav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 3rem;
+        padding: 3rem 0;
+    }
+
+    .contactInfo p {
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contactInfo .emailInfo{
+        margin-bottom: 2rem;
+    }
+
+    .contactInfo {
+        margin-bottom: 2rem;
+    }
+    
+}

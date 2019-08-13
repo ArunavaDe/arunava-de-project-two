@@ -1,0 +1,348 @@
+@media all and (max-width:900px) {
+
+    html {
+        background: $iceBlue;
+        font-size: 85%;
+    }
+    
+    .wrapper,
+    .responsiveWrapper {
+        max-width: 780px;
+        margin: 0 auto;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .home {
+        background: url("../assets/home-header.jpg");
+        height: 40vh;
+        background-size: cover;
+        
+        nav, 
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 10rem;
+            color: $dandelion;
+            font-size: 3.5rem;
+        }
+    }
+    
+    .blog {
+        background: url("../assets/blog-header.jpg");
+        height: 40vh;
+        background-size: cover;
+    
+        nav,
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 3rem;
+            color: $white;
+        }
+    }
+
+    .contact {
+        background: url("../assets/contact-header.jpg");
+        height: 40vh;
+        background-size: cover;
+    
+        nav,
+        h1 {
+            width: 100%;
+        }
+    
+        h1 {
+            padding-top: 3rem;
+            color: $white;
+        }
+    }
+    
+    
+    
+    
+    .snapshot {
+        position: relative;
+    }
+    .specialImage {
+        width: 55%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .descriptionArea {
+        margin-top: 10rem;
+        display: flex;
+        color: $twilightBlue;
+    
+    }
+    
+    .descriptionArea p {
+        margin: 0.5rem 0 3rem 3.5rem ;
+    }
+    
+    .descriptionSubHead {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .descriptionSubHead h2 {
+        font-size: 2rem;
+        margin: 0rem 1rem;
+    }
+    
+    .aboutIcon {
+        background: $dandelion;
+        height: 2.5rem;
+        width: 2.5rem;
+        text-align: center;
+        padding-top: 0.8rem;
+        border-radius: 50%;
+    }
+    
+    .programLocation {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-bottom: 8rem;
+        margin-top: 6rem;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+        background: $twilightBlue;
+    }
+    
+    .programLocation h3,
+    .programLocation p {
+        color: $white;
+    }
+    
+    
+    .programLocationLeft,
+    .programLocationRight {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .ourPrograms {
+        margin-left: 5rem;
+        width: 75%;
+        text-align: left;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .newLocations {
+        margin-right: 4rem;
+        width: 75%;
+        text-align: right;
+        margin-left: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .programImage, 
+    .locationImage {
+        width: 86%;
+        position: relative;
+    }
+    
+    .programImage {
+        align-self: flex-start;
+        top: -1.4rem;
+    }
+    
+    .programImage img {
+        box-shadow: 1rem 1rem $dandelion;
+    }
+    .locationImage {
+        align-self: flex-end;
+        bottom: -3.5rem;
+    }
+    
+    .locationImage img {
+        box-shadow: -1rem 1rem $dandelion;
+    }
+    
+    .extraDays {
+        text-align: center;
+    }
+    
+    .extraDays img {
+        margin-top: 6rem;
+    }
+    
+    .ourPrograms p,
+    .newLocations p,
+    .extraDaysContent p,
+    .winTripContent p {
+        margin-bottom: 2.5rem;
+    }
+    
+    .winTrip {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .winTripImage {
+        width: 100%;
+        padding: 1rem 0;
+        margin: 0 auto;
+    }
+    
+    .winTripImage img {
+        box-shadow: none;
+        border: 1rem solid $dandelion;
+        
+    }
+
+    .winTripContent {
+        margin-top: 2rem;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .gallery {
+        background: $twilightBlue;
+    }
+    .galleryContent {
+        display: flex;
+    }
+    
+    .galleryContent img {
+        margin: 4rem 1rem;
+        
+    }
+    
+    .blogMain {
+        flex-flow: column nowrap;
+    }
+    
+    
+    .blogSection {
+        width: 100%;
+        order: -1;
+        padding: 0; 
+    }
+    
+    .wrapperInside {
+        width: 760px;
+        margin: 0 auto;
+    }
+    
+    .blogImage {
+        margin: 2rem 0; 
+        align-self: center;
+        box-shadow: none; 
+        position: initial;
+        border: 0.2rem solid $dandelion;
+        width: 100%;
+    }
+    
+    .blogPost {
+        border: none;
+        position: initial;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    
+    }
+    
+    .blogPost h2, 
+    .byLine {
+        text-align: center;
+    }
+    
+    .byLine {
+        font-weight: 700;
+    }
+    
+    .comments {
+        position: initial;
+    }
+    
+    .formNameEmail {
+        margin-top: 2rem;
+        flex-flow: column nowrap;
+    }
+    
+    input[type=email] {
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    
+    .sideBox {
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .sideBox img {
+        box-shadow: none;
+        border: 1rem solid $dandelion;
+        width: 50%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sideBoxContent {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contactFS {
+        box-shadow: none;
+        position: initial;
+    }
+
+    .contactAreaFull{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+
+    .contactForm {
+        margin: 2rem 0;
+    }
+
+
+    .socialNav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 3rem;
+        padding: 3rem 0;
+    }
+
+    .contactInfo p {
+        margin: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contactInfo .emailInfo{
+        margin-bottom: 2rem;
+    }
+
+    .contactInfo {
+        margin-bottom: 2rem;
+    }
+    
+    }

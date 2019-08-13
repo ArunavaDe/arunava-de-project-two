@@ -1,0 +1,229 @@
+.blog {
+    background: url("../assets/blog-header.jpg");
+    height: 70vh;
+    background-size: cover;
+
+    nav,
+    h1 {
+        width: 50%;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        color: $white;
+    }
+}
+
+
+
+.blogMain {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+.sideBox {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 35%;
+}
+
+.blogSection {
+    width: 65%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 0.7rem;
+}
+
+.blogPost {
+    border-left: 0.3rem solid $dandelion;
+    border-bottom: 0.3rem solid $dandelion;
+    position: relative;
+    top: -7rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+
+}
+
+.wrapperInside {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.blogImage {
+    align-self: flex-end;
+    box-shadow: -1rem 1rem $dandelion; 
+    width: 97.85%;
+    position: relative;
+    top: -7rem;
+}
+
+.byLine {
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.commentSection {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.commentImage {
+    width: 15%;
+    margin: 1rem;
+}
+
+.commentContent {
+    width: 80%;
+}
+
+.commentArea {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 5rem;
+}
+
+.byLineComments {
+    text-transform: capitalize;
+    color: $twilightBlue;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 2rem;
+}
+
+.commentText {
+    margin: 0.5rem 2rem 0;
+}
+
+.comments {
+    position: relative;
+    top: -3rem;
+}
+
+.comments h3 {
+    margin: 2rem 0;
+}
+
+.sideBox img {
+    width: 70%;
+    margin: 6rem 0 0;
+    box-shadow: 1rem 1rem $twilightBlue;
+}
+
+.sideBoxContent {
+    width: 70%;
+    background: $twilightBlue;
+    padding: 2rem 1rem;
+    margin-left: 1rem;
+    color: $white;
+}
+
+.sideBoxContent h3 {
+    font-size: 1.25rem;
+    letter-spacing: 0.04rem;
+    color: $dandelion;
+    font-weight: 400;
+}
+
+.sideBox ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.sideBox ul li a {
+    text-decoration: none;
+    color: $white;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -5rem;
+}
+
+.formNameEmail {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+input[type=text] {
+    padding: 1rem;
+    background: $iceBlue;
+    border: none;
+    border-bottom: 2px solid $dandelion;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+input[type=text]::placeholder {
+    text-transform: capitalize;
+}
+
+input[type=text]:focus {
+    border-bottom: 2px solid $twilightBlue;
+    
+}
+
+input[type=email] {
+    padding: 1rem;
+    background: $iceBlue;
+    border: none;
+    border-bottom: 2px solid $dandelion;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 100%;
+    
+}
+
+input[type=email]::placeholder {
+    text-transform: capitalize;
+}
+
+input[type=email]:focus {
+    border-bottom: 2px solid $twilightBlue;
+    
+}
+
+input[type=textarea] {
+    padding: 0 1rem;
+    background: $iceBlue;
+    border: 2px solid $dandelion;
+    width: 100%;
+    height: 10rem;
+}
+
+input[type=textarea]::placeholder {
+    text-transform: capitalize;
+}
+
+input[type=textarea]:focus {
+    border: 2px solid $twilightBlue;
+}
+
+button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: $twilightBlue;
+    color: $dandelion;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+}
+
+button:focus,
+button:hover {
+    background: $dandelion;
+    color: $twilightBlue;
+}
+
+
+
+
+

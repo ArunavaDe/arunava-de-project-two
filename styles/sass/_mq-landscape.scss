@@ -1,0 +1,54 @@
+@media all and (min-width:300px) and (max-width: 900px) and (orientation: landscape) {
+        .home {
+            background: url("../assets/home-header.jpg");
+            height: 100vh;
+            background-size: cover;
+            
+            nav, 
+            h1 {
+                width: 100%;
+            }
+        
+            h1 {
+                align-self: center;
+                color: $dandelion;
+                font-size: 3.5rem;
+            }
+        }
+
+        .blog {
+            background: url("../assets/blog-header.jpg");
+            height: 100vh;
+            background-size: cover;
+        
+            nav,
+            h1 {
+                width: 100%;
+            }
+        
+            h1 {
+                padding-top: 3rem;
+                color: $white;
+            }
+        }
+
+        .contact {
+            background: url("../assets/contact-header.jpg");
+            height: 100vh;
+            background-size: cover;
+        
+            nav,
+            h1 {
+                width: 100%;
+            }
+        
+            h1 {
+                padding-top: 3rem;
+                color: $white;
+            }
+        }
+    
+        .specialImage {
+            display: none;
+        }
+}

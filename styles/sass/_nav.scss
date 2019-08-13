@@ -1,0 +1,29 @@
+nav{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        li {
+            margin-right: 2rem;
+
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1 rem;
+                text-transform: capitalize;
+                color: $white;
+                padding: 0.2rem 0;
+            }
+        }
+        li:hover a {
+            border-bottom: 0.2rem solid $dandelion;
+        } 
+
+        li:focus a {
+            border-bottom: 0.2rem solid $dandelion; 
+        }
+    }
+}
