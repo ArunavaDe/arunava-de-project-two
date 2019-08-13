@@ -348,6 +348,7 @@ a.readMore:focus {
           box-shadow: -1rem 1rem #fdd908;
   width: 97.85%;
   position: relative;
+  right: 0;
   top: -7rem;
 }
 
@@ -912,8 +913,7 @@ img {
     background: #eafefc;
     font-size: 90%;
   }
-  .wrapper,
-  .responsiveWrapper {
+  .wrapper {
     max-width: 1000px;
     margin: 0 auto;
   }
@@ -1019,8 +1019,7 @@ img {
     background: #eafefc;
     font-size: 90%;
   }
-  .wrapper,
-  .responsiveWrapper {
+  .wrapper {
     max-width: 860px;
     margin: 0 auto;
   }
