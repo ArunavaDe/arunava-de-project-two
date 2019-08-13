@@ -239,6 +239,10 @@
     .blogMain {
         flex-flow: column nowrap;
     }
+
+    button {
+        padding: 2rem;
+    }
     
     
     .blogSection {
@@ -291,6 +295,7 @@
         margin: 0;
         margin-bottom: 3rem;
     }
+
     
     .sideBox {
         width: 100%;

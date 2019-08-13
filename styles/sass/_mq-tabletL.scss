@@ -173,7 +173,9 @@
     .blogMain {
         flex-flow: column nowrap;
     }
-
+    button {
+        padding: 2rem;
+    }
 
     .blogSection {
         width: 100%;

@@ -1353,6 +1353,9 @@ img {
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
   }
+  button {
+    padding: 2rem;
+  }
   .blogSection {
     width: 100%;
     -webkit-box-ordinal-group: 0;
@@ -1646,6 +1649,9 @@ img {
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
   }
+  button {
+    padding: 2rem;
+  }
   .blogSection {
     width: 100%;
     -webkit-box-ordinal-group: 0;
@@ -1936,6 +1942,9 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
+  }
+  button {
+    padding: 2rem;
   }
   .blogSection {
     width: 100%;
