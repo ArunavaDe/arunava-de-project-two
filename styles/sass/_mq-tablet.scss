@@ -1,11 +1,11 @@
-@media all and (max-width:768px) {
+@media all and (min-width:671px) and (max-width:784px) {
     html {
         font-size: 90%;
     }
 
     .wrapper,
     .responsiveWrapper {
-        max-width: 700px;
+        max-width: 660px;
         margin: 0 auto;
     }
 
@@ -182,7 +182,7 @@
     }
 
     .wrapperInside {
-        width: 700px;
+        width: 660px;
         margin: 0 auto;
     }
 

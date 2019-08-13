@@ -1,4 +1,4 @@
-@media all and (max-width:900px) {
+@media all and (min-width:785px) and (max-width:900px) {
 
     html {
         background: $iceBlue;
@@ -68,17 +68,27 @@
         }
     }
     
-    
+    .home ul.topNav,
+    .blog ul.topNav,
+    .contact ul.topNav {
+        
+        justify-content: space-between;
+        li {
+            padding: 0;
+            margin: 0;
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+            
     
     
     .snapshot {
         position: relative;
     }
     .specialImage {
-        width: 55%;
-        position: absolute;
-        top: 0;
-        right: 0;
+        display: none;
     }
     
     .descriptionArea {

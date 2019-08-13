@@ -907,7 +907,7 @@ img {
   margin: 4rem 1rem;
 }
 
-@media all and (min-width: 901px) and (max-width: 1200px) {
+@media all and (min-width: 1025px) and (max-width: 1200px) {
   html {
     background: #eafefc;
     font-size: 90%;
@@ -1014,7 +1014,7 @@ img {
   }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (min-width: 901px) and (max-width: 1024px) {
   html {
     background: #eafefc;
     font-size: 90%;
@@ -1121,7 +1121,7 @@ img {
   }
 }
 
-@media all and (max-width: 900px) {
+@media all and (min-width: 785px) and (max-width: 900px) {
   html {
     background: #eafefc;
     font-size: 85%;
@@ -1177,14 +1177,29 @@ img {
     padding-top: 3rem;
     color: white;
   }
+  .home ul.topNav,
+  .blog ul.topNav,
+  .contact ul.topNav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .home ul.topNav li,
+  .blog ul.topNav li,
+  .contact ul.topNav li {
+    padding: 0;
+    margin: 0;
+  }
+  .home ul.topNav li a,
+  .blog ul.topNav li a,
+  .contact ul.topNav li a {
+    font-size: 1.5rem;
+  }
   .snapshot {
     position: relative;
   }
   .specialImage {
-    width: 55%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: none;
   }
   .descriptionArea {
     margin-top: 10rem;
@@ -1461,13 +1476,13 @@ img {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 671px) and (max-width: 784px) {
   html {
     font-size: 90%;
   }
   .wrapper,
   .responsiveWrapper {
-    max-width: 700px;
+    max-width: 660px;
     margin: 0 auto;
   }
   .home {
@@ -1639,7 +1654,7 @@ img {
     padding: 0;
   }
   .wrapperInside {
-    width: 700px;
+    width: 660px;
     margin: 0 auto;
   }
   .blogImage {
@@ -1752,13 +1767,13 @@ img {
   }
 }
 
-@media all and (max-width: 670px) {
+@media all and (min-width: 421px) and (max-width: 670px) {
   html {
     font-size: 90%;
   }
   .wrapper,
   .responsiveWrapper {
-    max-width: 600px;
+    max-width: 420px;
     margin: 0 auto;
   }
   .home {
@@ -1930,7 +1945,7 @@ img {
     padding: 0;
   }
   .wrapperInside {
-    width: 600px;
+    width: 420px;
     margin: 0 auto;
   }
   .blogImage {
@@ -2043,7 +2058,7 @@ img {
   }
 }
 
-@media all and (max-width: 420px) {
+@media all and (min-width: 376px) and (max-width: 420px) {
   html {
     font-size: 80%;
   }
@@ -2351,13 +2366,13 @@ img {
   }
 }
 
-@media all and (max-width: 375px) {
+@media all and (min-width: 321px) and (max-width: 375px) {
   html {
     font-size: 80%;
   }
   .wrapper,
   .responsiveWrapper {
-    max-width: 320px;
+    max-width: 310px;
     margin: 0 auto;
   }
   .home {
