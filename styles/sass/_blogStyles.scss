@@ -1,3 +1,7 @@
+// blog styles start here
+
+
+// header styles start here
 .blog {
     background: url("../assets/blog-header.jpg");
     height: 70vh;
@@ -15,7 +19,7 @@
 }
 
 
-
+// main content styles start here
 .blogMain {
     display: flex;
     flex-flow: row nowrap;
@@ -69,6 +73,8 @@
     margin-top: 0;
 }
 
+
+// comments section start here
 .comments h3 {
     color: $twilightBlue;
 }
@@ -114,6 +120,7 @@
     margin: 2rem 0;
 }
 
+// sidebox content styles start here
 .sideBox img {
     width: 70%;
     margin: 6rem 0 0;
@@ -146,6 +153,7 @@
     color: $white;
 }
 
+// comment form styles start here
 fieldset {
     border: none;
     margin: 0;

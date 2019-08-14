@@ -1,3 +1,7 @@
+// contact page styled here
+
+
+// header styled here
 .contact {
     background: url("../assets/contact-header.jpg");
     height: 70vh;
@@ -14,7 +18,7 @@
     }
 }
 
-
+// contact form styles start here
 .contactFS {
     background: $twilightBlue;
     padding: 3rem;
@@ -50,7 +54,8 @@
 
 .contactFS button:focus,
 .contactFS button:hover {
-    border: 1px solid $dandelion;
+
+    box-shadow: 0 0.3rem $dandelion;
     color: $dandelion;
     background: $twilightBlue;
 }
@@ -61,6 +66,7 @@
     justify-content: space-between;
 }
 
+// social menu and address information styled here
 
 .socialNav {
     display: flex;

@@ -1,3 +1,5 @@
+// home page styled here
+
 
 html {
     background: $iceBlue;
@@ -17,6 +19,7 @@ img {
     width: 100%;
 }
 
+// header elements styled here
 .home {
     background: url("../assets/home-header.jpg");
     height: 90vh;
@@ -34,11 +37,13 @@ img {
 }
 
 
-
+// main sections styling start here
 
 .snapshot {
     position: relative;
 }
+
+// special header image positioned here
 .specialImage {
     width: 55%;
     position: absolute;
@@ -46,6 +51,8 @@ img {
     right: 0;
 }
 
+
+// salient features section styled here
 .descriptionArea {
     margin-top: 10rem;
     display: flex;
@@ -67,6 +74,7 @@ img {
     margin: 0rem 1rem;
 }
 
+// icons styled here
 .aboutIcon {
     background: $dandelion;
     height: 2.5rem;
@@ -76,6 +84,8 @@ img {
     border-radius: 50%;
 }
 
+
+// program and location section starts here
 .programLocation {
     display: flex;
     flex-flow: row nowrap;
@@ -139,6 +149,8 @@ img {
     box-shadow: -1rem 1rem $dandelion;
 }
 
+// extra days section styled here
+
 .extraDays {
     text-align: center;
 }
@@ -158,6 +170,8 @@ img {
     margin-bottom: 2.5rem;
 }
 
+
+// win trip section styled here
 .winTrip {
     display: flex;
     flex-flow: row wrap;
@@ -179,6 +193,8 @@ img {
 .winTripContent h3 {
     color: $twilightBlue;
 }
+
+// gallery section styled here
 
 .gallery {
     background: $twilightBlue;

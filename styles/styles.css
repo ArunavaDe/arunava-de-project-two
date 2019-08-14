@@ -640,7 +640,8 @@ button:hover {
 
 .contactFS button:focus,
 .contactFS button:hover {
-  border: 1px solid #fdd908;
+  -webkit-box-shadow: 0 0.3rem #fdd908;
+          box-shadow: 0 0.3rem #fdd908;
   color: #fdd908;
   background: #0d457f;
 }
