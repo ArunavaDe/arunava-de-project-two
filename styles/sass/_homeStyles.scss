@@ -22,7 +22,7 @@ img {
 // header elements styled here
 .home {
     background: url("../assets/home-header.jpg");
-    height: 90vh;
+    min-height: 90vh;
     background-size: cover;
     
     nav, 
